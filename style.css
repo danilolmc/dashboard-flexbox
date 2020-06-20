@@ -1,0 +1,319 @@
+*{
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif; 
+    outline: none;
+}
+
+body{
+    
+    margin:0;
+    padding: 0;
+    background: #eee;
+}
+
+header{
+    background: #fff;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+header > div {
+     display:flex;
+     height: 15px;
+     width:190px;
+}
+
+header > div span label{
+    margin: 0 20px;
+    color:#888;
+    position:relative;
+}
+
+input[type="checkbox"]{
+    display:none
+}
+
+input:checked + #dropdown{
+    height: 100px;
+    opacity:1;
+}
+
+
+header > div span #dropdown{
+    transform: translateY(25px);
+    opacity:0;
+    transition:.5s;
+    background: #fff;
+    margin-right: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 1px;
+    box-shadow: 0 5px 10px #ddd; 
+}
+
+header > div span #dropdown ul li{
+    list-style:none;
+    margin:0 10px 10px -20px;
+    color:#888;
+    text-align:left;
+    width:100%;
+    text-transform: none;
+    cursor:context-menu;
+    transition:.5s;
+}
+
+header > div span #dropdown ul li:hover{
+
+    color:rgb(69, 148, 250)
+}
+
+#dropdown ul li:nth-child(2)
+{
+    margin-left:-20px;
+}
+
+li span{
+    margin-right:9px;
+    margin-left:0; 
+}
+
+header > div i.fa-microphone{
+    color:#bbb;
+    margin:0px 15px 0 0;
+    transition:1s;
+}
+
+
+
+header > div i.fa-microphone:hover{
+    color:rgb(69, 148, 250);
+}
+
+header > div img{
+
+    width: 20px;
+    height: 20px;
+    border-radius:50px;
+}
+
+header > label{
+
+    color:rgb(69, 148, 250);
+}
+
+header > label span{
+
+    border: 2px solid rgb(69, 148, 250);
+    padding:2px 5px;
+    border-radius: 100%;
+    margin:0 5px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    color:#888;
+    margin: 0 20px;
+    font-size:14px;
+    border:none;
+    border-bottom: 2px solid #fff;
+    height: 60px;
+    text-align: center;
+    padding: 6% 0;
+    transition: border 1s;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    
+    color: rgb(69, 148, 250);
+    border-bottom: 2px solid rgb(69, 148, 250);
+}
+
+#buy{
+
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 175px;
+    cursor:context-menu;
+}
+
+
+#buy h3,p{
+
+    color:#555;
+}
+
+#buy p{
+
+    font-size: 12px;
+}
+
+#buy span:last-child{
+    display: flex;
+}
+
+#buy span:last-child *{
+    margin: 0 10px;
+}
+
+#buy span:last-child div{
+    background: #006eff;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#buy span:last-child div,
+#buy span:last-child button{
+    
+    box-shadow: 0 10px 10px #ddd;
+    transition: 1s;
+}
+#buy span:last-child div i{
+    
+    margin:9px;
+    color:#fff;
+}
+
+#buy span:last-child button{
+    
+    border:none;
+    background: #fff;
+    border-radius: 18px;
+    width: 100px;
+}
+
+
+#buy span:last-child button:hover{
+
+   color: #006eff;
+}
+
+
+#itens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#itens div{
+
+    margin: 10px;
+    height: 140px;
+    border-radius:5px;
+}
+
+
+#itens div:first-child{
+    
+    background: linear-gradient(to right,#9fabff 35%,#a372f9);
+    width: 380px;
+}
+
+#itens div:nth-child(1n+2){
+    background: #fff;
+    width: 180px;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+#itens div:first-child span{
+    
+    display:flex;
+    padding: 10px 10px;
+
+}
+
+#itens div:first-child span div{
+
+    border-radius:100px;
+    width: 80px;
+    margin: 20px;
+    padding: 20px 22px;
+    height: 80px;
+    background: #aab4fd;
+    border: .5px solid #b5bdfd;
+}
+
+
+#itens div:first-child span div img{
+    
+    width: 40px;
+    height: 40px;
+    margin: auto auto;
+}
+
+#itens div:first-child span article{
+    
+    font-size:10px;
+    width: 64%;
+}    
+
+#itens div:first-child span article *{
+    
+    color: #fff;
+    line-height: 10px;
+}
+
+
+#itens div:first-child span article p{
+    
+    line-height: 16px;
+    text-align: left;
+}
+#itens div{
+
+    transition: .5s;
+    cursor: pointer;
+}
+
+#itens div:hover{
+
+    box-shadow: 0 10px 10px #ddd;
+    transform: scale(1.05);
+
+}
+
+#itens div:nth-child(1n+2) p{
+    
+    margin: 5% auto;
+    max-width: 80%;
+
+}
+
+#itens div img{
+    width: 25%;
+    margin: 10% auto;
+}
+
+#itens div:nth-child(n+2):nth-child(-n+3){
+    padding: 10px 20px;
+}
+
+
+#itens div:nth-child(2) img{
+    
+    width:70%;
+    margin: 0;
+}
+
+
+#itens div:nth-child(3) img{
+    
+    width: 40%;
+    margin-top: 4%;
+}
+
