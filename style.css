@@ -27,7 +27,7 @@ header > div {
 }
 
 header > div span label{
-    margin: 0 35px;
+    margin: 0 31px;
     color:#888;
     position:relative;
 }
@@ -143,6 +143,7 @@ nav ul li:hover{
     align-items: center;
     cursor:context-menu;
     margin: 20px auto;
+    flex-wrap: wrap;
 }
 
 
