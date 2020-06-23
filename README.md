@@ -2,7 +2,7 @@
 
 ##### Dashboard contruido usando apenas HTML e CSS Flexbox Layout
 
-![](/img/dash.png)
+![](img/dash.png)
 
 
 Este é um  projeto utilizando FlexBox Layout do CSS3 na contrução de uma página com um dashboard de compras limpo,agradável e com efeitos suaves, inspirado em um layout que vi anteriormente.
