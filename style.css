@@ -27,7 +27,7 @@ header > div {
 }
 
 header > div span label{
-    margin: 0 20px;
+    margin: 0 35px;
     color:#888;
     position:relative;
 }
@@ -48,6 +48,8 @@ header > div span #dropdown{
     transition:.5s;
     background: #fff;
     margin-right: 25px;
+    width: 120px;
+    min-width: 120px;
     border-radius: 5px;
     overflow: hidden;
     height: 1px;
@@ -135,12 +137,12 @@ nav ul li:hover{
 
 #buy{
 
-    width: 100%;
+    width:69%;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 175px;
     cursor:context-menu;
+    margin: 20px auto;
 }
 
 
@@ -209,7 +211,7 @@ nav ul li:hover{
 }
 
 #itens div{
-
+    
     margin: 10px;
     height: 140px;
     border-radius:5px;
