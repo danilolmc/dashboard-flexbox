@@ -52,7 +52,7 @@ header > div span #dropdown{
     min-width: 120px;
     border-radius: 5px;
     overflow: hidden;
-    height: 1px;
+    height: 0px;
     box-shadow: 0 5px 10px #ddd; 
 }
 
@@ -106,7 +106,7 @@ header > label{
     color:rgb(69, 148, 250);
 }
 
-header > label span{
+header > label span:first-child{
 
     border: 2px solid rgb(69, 148, 250);
     padding:2px 5px;
@@ -114,6 +114,11 @@ header > label span{
     margin:0 5px;
 }
 
+header .menu_bars{
+    display: none;
+    width: 30px;
+    margin: 20px 20px 20px 30px;
+}
 
 nav ul li{
     display: inline-block;
