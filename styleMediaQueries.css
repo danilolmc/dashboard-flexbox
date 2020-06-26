@@ -1,0 +1,179 @@
+.mostrar_menu{
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 350px;
+
+}
+
+
+@media (min-width:768px){
+
+    nav{
+        display: block;
+    }
+}
+
+
+    @media (min-width:0px) and (max-width:760px){
+
+
+    header nav{
+        
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+        overflow: hidden;
+        height: 0px;
+        top: 61px;
+        transition: 1s;
+    }
+
+    
+    header nav ul li{
+        transform: translateX(-18px);
+    }
+    header nav ul li{
+        
+        display: block;
+        border-bottom: 2px solid #ddd;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+     i.fa-microphone{
+      display: none;      
+    }
+    
+    header .menu_bars{
+        display: block;
+    }
+
+    header > div{
+        width: 101px;
+    }
+
+    header div img{
+        display: none;
+    }
+
+    header div > span {
+        width: 100%
+    }
+
+    header div > span label {
+        margin: 0 9px;
+    }
+
+    header label{
+        margin-left: 20px;
+    }
+
+    
+    header > label span:first-child{
+        margin: 10px 20px;
+    }
+
+    header > label span:last-child{
+        display: none;
+    }
+
+    header > div span #dropdown{
+        transform: translateX(-20%)  translateY(22px);
+        position: absolute;
+        box-shadow: none;
+        opacity: 1;
+        z-index: 4;
+        box-shadow: 0 5px 10px #eee;
+    }
+
+}
+
+@media(max-width: 426px) {
+
+    #buy {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #buy span {
+        width: 100%;
+    }
+
+    #buy span:last-child {
+
+        justify-content: space-between;
+        flex-direction : row-reverse;
+        margin-top     : 40px;
+    }
+
+    #buy span:last-child button{
+
+        width: 120px;
+        height: 40px;
+    }   
+
+    #buy span:last-child div{
+
+        width: 43px;
+        height: 43px;
+    }
+
+    #buy span:last-child div i{
+        margin: 13px;
+    }
+
+
+    #itens {
+        margin-top: 40px;
+    }
+
+    #itens div:nth-child(1n+2) {
+        width      : 100%;
+        height     : 200px;
+        padding-top: 20px;
+    }
+
+    #itens div:hover {
+        transform : none;
+        box-shadow: none;
+    }
+
+
+
+}
+
+@media(max-width: 375px) {
+
+    #itens div:first-child {
+
+        padding: 20px;
+        height : 300px;
+    }
+
+    #itens div:first-child span {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #itens div:first-child span div {
+        margin: 20px auto;
+    }
+
+    #itens div:first-child span article {
+        width: 100%;
+    }
+}
+
+@media(min-width: 374px) and (max-width: 426px) {
+
+
+    #itens div:nth-child(1n+2) {
+
+        width: 100%;
+        height: 240px;
+        padding-top: 20px;
+    }
+}
