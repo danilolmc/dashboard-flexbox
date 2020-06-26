@@ -3,7 +3,7 @@
 ##### Dashboard responsivo contruído usando apenas HTML e CSS Flexbox Layout
 
 
-![](img/dash.png)
+![](img/dash.PNG)
 
 
 Este é um  projeto utilizando FlexBox Layout do CSS3 na contrução de uma página responsiva com um dashboard de compras limpo,agradável, inspirado em um layout que vi anteriormente.
