@@ -1,17 +1,19 @@
-# Dashboard de compras com HTML e CSS
+# Dashboard de compras com HTML e CSS responsivo
 
-##### Dashboard contruido usando apenas HTML e CSS Flexbox Layout
-
-![](img/dash.PNG)
+##### Dashboard responsivo contruído usando apenas HTML e CSS Flexbox Layout
 
 
-Este é um  projeto utilizando FlexBox Layout do CSS3 na contrução de uma página com um dashboard de compras limpo,agradável e com efeitos suaves, inspirado em um layout que vi anteriormente.
+![](img/dash.png)
+
+
+Este é um  projeto utilizando FlexBox Layout do CSS3 na contrução de uma página responsiva com um dashboard de compras limpo,agradável, inspirado em um layout que vi anteriormente.
 
 ## Tecnologias utilizadas
 
 - HTML5
-- CSS3
 - CSS FlexBox Layout
+- CSS Media Queries
+- JavaScript
 
 ## Como contribuir?
 
