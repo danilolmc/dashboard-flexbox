@@ -6,7 +6,7 @@
 ![](img/dash.PNG)
 
 
-Este é um  projeto utilizando FlexBox Layout do CSS3 na contrução de uma página responsiva com um dashboard de compras limpo,agradável, inspirado em um layout que vi anteriormente.
+Este é um  projeto utilizando FlexBox Layout do CSS3 na construção de uma página responsiva com um dashboard de compras limpo,agradável, inspirado em um layout que vi anteriormente.
 
 ## Tecnologias utilizadas
 
